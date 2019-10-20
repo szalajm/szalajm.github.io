@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'http://localhost:8080/v1/task/';
+  const apiRoot = ' https://gentle-bayou-08022.herokuapp.com/v1/task';
   const trelloApiRoot = 'http://localhost:8080/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
